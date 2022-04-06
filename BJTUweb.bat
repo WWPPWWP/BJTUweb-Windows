@@ -12,7 +12,7 @@ if errorlevel 1 goto Exit
 if errorlevel 0 goto Begin
 
 :Exit
-echo %date:~0,10% %time:~0,8%  ��δ����У԰����������֤
+echo %date:~0,10% %time:~0,8%  未接入校园网，不可认证
 goto Delay
 
 :Begin
@@ -21,11 +21,11 @@ if errorlevel 1 goto Reboot
 if errorlevel 0 goto Continue
 
 :Continue
-echo %date:~0,10% %time:~0,8%  ���ѽ���У԰��������֤�������ٴ���֤
+echo %date:~0,10% %time:~0,8%  已接入校园网，已认证，无需再次认证
 goto Delay
 
 :Reboot
-echo %date:~0,10% %time:~0,8%  ���ѽ���У԰��������δ��֤�������Զ���֤
+echo %date:~0,10% %time:~0,8%  已接入校园网，但尚未认证，尝试自动认证
 start msedge "http://10.10.43.3/drcom/login?callback=dr1610523868502&DDDDD=%username%&upass=%password%&0MKKey=123456"
 goto Delay
 
