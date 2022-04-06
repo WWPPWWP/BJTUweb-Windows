@@ -1,8 +1,8 @@
 @echo off
 color f0
 
-set username=19111039
-set password=ddrrxx
+set username=19112222
+set password=666666
 
 title BJTUweb-%username%
 
@@ -12,7 +12,7 @@ if errorlevel 1 goto Exit
 if errorlevel 0 goto Begin
 
 :Exit
-echo %date:~0,10% %time:~0,8%  ║ан╢╫схКпёт╟мЬё╛╡╩©ихож╓
+echo %date:~0,10% %time:~0,8%  О©╫О©╫н╢О©╫О©╫О©╫О©╫пёт╟О©╫О©╫О©╫О©╫О©╫О©╫О©╫О©╫О©╫О©╫ж╓
 goto Delay
 
 :Begin
@@ -21,11 +21,11 @@ if errorlevel 1 goto Reboot
 if errorlevel 0 goto Continue
 
 :Continue
-echo %date:~0,10% %time:~0,8%  ║лря╫схКпёт╟мЬё╛ряхож╓ё╛нчпХты╢нхож╓
+echo %date:~0,10% %time:~0,8%  О©╫О©╫О©╫я╫О©╫О©╫О©╫пёт╟О©╫О©╫О©╫О©╫О©╫О©╫О©╫О©╫ж╓О©╫О©╫О©╫О©╫О©╫О©╫О©╫ы╢О©╫О©╫О©╫ж╓
 goto Delay
 
 :Reboot
-echo %date:~0,10% %time:~0,8%  ║аря╫схКпёт╟мЬё╛╣╚ипн╢хож╓ё╛Ё╒йтвт╤╞хож╓
+echo %date:~0,10% %time:~0,8%  О©╫О©╫О©╫я╫О©╫О©╫О©╫пёт╟О©╫О©╫О©╫О©╫О©╫О©╫О©╫О©╫н╢О©╫О©╫ж╓О©╫О©╫О©╫О©╫О©╫О©╫О©╫т╤О©╫О©╫О©╫ж╓
 start msedge "http://10.10.43.3/drcom/login?callback=dr1610523868502&DDDDD=%username%&upass=%password%&0MKKey=123456"
 goto Delay
 
