@@ -1,7 +1,7 @@
 @echo off
 color f0
 
-set username=19112222
+set username=19111111
 set password=666666
 
 title BJTUweb-%username%
